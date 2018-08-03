@@ -16,6 +16,7 @@ def find_links(url)
     lnk.content.strip
   end
   p all_links
+  return all_links
 end
 
 find_links("https://stackoverflow.com")
