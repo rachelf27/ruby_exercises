@@ -21,4 +21,4 @@ jobs:
       # run tests!
       - run:
           name: run tests
-          command: ./find_links.rb
+          command: ruby find_links.rb
