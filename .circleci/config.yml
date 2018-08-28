@@ -18,6 +18,9 @@ jobs:
 
     steps:
       - checkout
+      - run:
+          name: Bundle Install
+          command: bundle check || bundle install
       # run tests!
       - run:
           name: run tests
